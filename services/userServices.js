@@ -1,7 +1,6 @@
-const User = require('../models/User')
+const User = require('../models/User.js')
 const validate = require('validate.js')
 const { pick } = require('../utils/global')
-const { filterGeneralProperty } = require('../utils/global')
 
 exports.addUser = async (obj) => {
   obj = pick(obj, 'name', 'age', 'address')

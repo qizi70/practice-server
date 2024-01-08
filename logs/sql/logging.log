@@ -4348,3 +4348,233 @@
 
 [2024-01-08-17:23:36] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
 
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-17:39:23] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-17:39:25] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-17:42:08] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-17:58:04] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-17:59:36] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-18:14:56] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-18:14:58] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-18:17:12] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-18:17:20] [DEBUG] sql: Executing (default): SELECT `id`, `name`, `age`, `address`, `createdAt`, `updatedAt`, `deletedAt` FROM `User` AS `User` WHERE (`User`.`deletedAt` IS NULL AND `User`.`id` = '1');
+
+[2024-01-08-18:17:32] [DEBUG] sql: Executing (default): SELECT `id`, `name`, `age`, `address`, `createdAt`, `updatedAt`, `deletedAt` FROM `User` AS `User` WHERE (`User`.`deletedAt` IS NULL AND `User`.`id` = '1');
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-18:17:58] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-18:18:01] [DEBUG] sql: Executing (default): SELECT `id`, `name`, `age`, `address`, `createdAt`, `updatedAt`, `deletedAt` FROM `User` AS `User` WHERE (`User`.`deletedAt` IS NULL AND `User`.`id` = '1');
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-18:20:58] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-18:21:02] [DEBUG] sql: Executing (default): SELECT `id`, `name`, `age`, `address`, `createdAt`, `updatedAt`, `deletedAt` FROM `User` AS `User` WHERE (`User`.`deletedAt` IS NULL AND `User`.`id` = '1');
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'User' AND TABLE_SCHEMA = 'global'
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): SHOW FULL COLUMNS FROM `User`;
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): SELECT CONSTRAINT_NAME as constraint_name,CONSTRAINT_NAME as constraintName,CONSTRAINT_SCHEMA as constraintSchema,CONSTRAINT_SCHEMA as constraintCatalog,TABLE_NAME as tableName,TABLE_SCHEMA as tableSchema,TABLE_SCHEMA as tableCatalog,COLUMN_NAME as columnName,REFERENCED_TABLE_SCHEMA as referencedTableSchema,REFERENCED_TABLE_SCHEMA as referencedTableCatalog,REFERENCED_TABLE_NAME as referencedTableName,REFERENCED_COLUMN_NAME as referencedColumnName FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE where TABLE_NAME = 'User' AND CONSTRAINT_NAME!='PRIMARY' AND CONSTRAINT_SCHEMA='global' AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `name` `name` VARCHAR(255);
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `age` `age` VARCHAR(255);
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `address` `address` VARCHAR(255);
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `createdAt` `createdAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `updatedAt` `updatedAt` DATETIME DEFAULT CURRENT_TIMESTAMP;
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): ALTER TABLE `User` CHANGE `deletedAt` `deletedAt` DATETIME;
+
+[2024-01-08-18:22:42] [DEBUG] sql: Executing (default): SHOW INDEX FROM `User`
+
+[2024-01-08-18:22:44] [DEBUG] sql: Executing (default): SELECT `id`, `name`, `age`, `address`, `createdAt`, `updatedAt`, `deletedAt` FROM `User` AS `User` WHERE (`User`.`deletedAt` IS NULL AND `User`.`id` = '1');
+

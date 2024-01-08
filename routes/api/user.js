@@ -7,7 +7,9 @@ const { filterGeneralProperty } = require('../../utils/global')
 router.get('/getUserInfo', asyncHandler(async (req, res) => {
   const result = await userServ.getUserInfo(req.query.id)
 
-  return result ? filterGeneralProperty(result) : {}
+  return {
+    result: result ? filterGeneralProperty(result) : {}
+  }
 }))
 
 router.post('/createUser', asyncHandler(async (req, res) => {

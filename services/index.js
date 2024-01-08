@@ -32,4 +32,3 @@ validate.extend(validate.validators.datetime, {
 		return moment.utc(value).format(format);
 	}
 })
-

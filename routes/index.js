@@ -1,5 +1,7 @@
+// @ts-ignore
 const express = require('express')
 const app = express()
+// @ts-ignore
 const path = require('path')
 const cors = require('cors')
 
@@ -19,10 +21,10 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
 
-app.use('/api/user', require('./api/user'))
+app.use('/api/user', require('./api/user.js'))
 
 
-app.use(require('./middleware/errorMiddleware'))
+app.use(require('./middleware/errorMiddleware.js'))
 
 const port = 5008
 app.listen(port, () => {
