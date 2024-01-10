@@ -22,6 +22,7 @@ app.use(express.json())
 
 
 app.use('/api/user', require('./api/user.js'))
+app.use('/api/working', require('./api/workingHours.js'))
 
 
 app.use(require('./middleware/errorMiddleware.js'))

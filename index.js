@@ -1,10 +1,16 @@
 require('./init')
 
+// const moment = require('moment');
 
-// const { addUser } = require('./services/testServices')
+// // 设置周的第一天是周一
+// moment.locale('en', {
+//   week: {
+//     dow: 1, // Monday is the first day of the week
+//   },
+// });
 
-// addUser({
-//   name: '李',
-//   age: 18,
-//   address: '地址'
-// })
+// const startOfWeek = moment().startOf('week').toDate();
+// const endOfWeek = moment().endOf('week').toDate();
+
+// console.log(startOfWeek);
+// console.log(endOfWeek);

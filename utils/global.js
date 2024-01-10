@@ -32,3 +32,21 @@ exports.pick = function (obj, ...props){
 	}
 	return newObj;
 }
+
+/**
+ * @description: 传入日期字符串，补0  '2000-1-1' -> '2000-01-01'
+ * @param {*} dateString
+ * @return {string}
+ */
+exports.formatDate = function (dateString) {
+  if(!dateString) return;
+
+  const arr = dateString.split('-').map(item => {
+    if(item.length == 1){
+      return item = '0' + item
+    }
+    return item
+  })
+
+  return arr.join('-');
+}
