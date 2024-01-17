@@ -30,7 +30,7 @@ exports.asyncHandler = (handler) => {
 	return async (req, res, next) => {
 		try{
 			const object = await handler(req, res, next)
-
+			
 			if(object.result instanceof Error){
 				// 错误情况
 				res.status(400).send(exports.getErrResult(object.result.message))

@@ -13,6 +13,15 @@ router.post('/addRecords', asyncHandler(async (req, res) => {
     successed: true,
     msg: '添加成功'
   }
+  
+}))
+
+router.get('/getWeekRecords', asyncHandler(async (req, res) => {
+  const result = await workServ.getWeekRecords(req.query)
+
+  return {
+    result: result ? filterGeneralProperty(result) : {}
+  }
 }))
 
 module.exports = router

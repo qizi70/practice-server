@@ -12,10 +12,22 @@ const WorkingHours = sequelize.define('WorkingHours', {
     allowNull: true,
     defaultValue: ''
   },
-  hours: { // 工时
+  hours: { // 实际工时
     type: DataTypes.STRING,
     allowNull: true,
-    defaultValue: '0'
+    defaultValue: '0',
+    comment: '实际工时'
+  },
+  status: { // 在岗状态
+    type: DataTypes.STRING,
+    allowNull: true,
+    defaultValue: '1',
+    comment: `
+    1. 正常出勤	8
+    2. 上午请假	5.5
+    3. 下午请假	2.5
+    4. 全天请假	0
+    5. 全天加班	0`
   },
   startTime: { // 开始打卡时间
     type: DataTypes.STRING,

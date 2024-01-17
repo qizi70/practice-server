@@ -6,6 +6,7 @@ const path = require('path')
 const cors = require('cors')
 
 //处理跨域
+// app.use(require('./middleware/corsMiddleware.js'))
 app.use(cors())
 
 //加入之后 会在 req 对象中注入 cookies 属性，用于获取所有请求传递过来的 cookie
